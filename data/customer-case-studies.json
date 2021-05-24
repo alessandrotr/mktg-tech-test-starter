@@ -1,0 +1,556 @@
+[
+  {
+    "metaTags": {
+      "title": "AI Telecom Case Study: T-Mobile",
+      "description": "Powered by Rasa, 10% of T-Mobile customers benefit from Messaging self-service, with plans to increase to 25% by the end of 2021."
+    },
+    "slug": "t-mobile",
+    "heading": "Allowing customers to save time and skip the line with a guided, personalized experience",
+    "subHeading": "Powered by Rasa, 10% of T-Mobile customers benefit from Messaging self-service, with plans to increase to 25% by the end of 2021.",
+    "content": "<h3>The Challenge</h3>\n\n<p>With over 100 million customers, T-Mobile is the #2 wireless carrier in the US. The company has been recognized year after year for commitment to outstanding customer service, recently named to Newsweek&#39;s Best Customer Service Companies 2020 and awarded #1 for U.S. Wireless Full-Service Customer Care by J.D. Power.</p>\n\n<p>Providing consistently excellent customer service relies on more than experienced agents. It also requires technology that empowers human agents to be their most effective. One of the most striking customer service technology trends in recent years has been the widespread adoption of virtual assistants, particularly among millennials, who value the convenience and ability to receive an immediate response. Across industries, virtual assistants allow customers to contact companies on their terms and timeline, freeing human agents to focus on solving customers&#39; most challenging problems.</p>\n\n<p>The onset of the Covid-19 pandemic acutely highlighted the need for this type of self-serve option for T-Mobile Messaging customers. At times, over 20k+ customers could be in queue to speak with a T-Mobile Expert, many with simple requests. Creating an automated, self-service alternative promised to dramatically decrease wait times and time to resolution, improving customer experience while relieving pressure on human agents. With routine requests handled by an assistant, T-Mobile Experts could focus on problems requiring empathy and complex problem-solving.</p>\n\n<p>Lindsey McCarthy, Senior Technical Product Manager on the AI @ T-Mobile team, summarized: &quot;We wanted to create value for our customers by giving them the option to complete simple tasks online or offer them information for simple questions.&quot; Lindsey noted that the assistant also needed to properly direct the customer when the reason for contact fell outside of the assistant&#39;s current capabilities. &quot;It&#39;s extremely important that they can get to an Expert quickly if the virtual assistant cannot solve their problem.&quot;</p>\n\n<h3>The Solution</h3>\n\n<p>The AI @ T-Mobile team was tasked with building a new virtual assistant to assist Messaging customers. Previous experience taking a sales virtual assistant to market in 2019 left the team with learnings that would shape their approach. That assistant, built by an outside vendor, had proven to be expensive and difficult to manage. T-Mobile decided to bring the development of their virtual assistant fully in-house using Rasa, allowing T-Mobile to own and customize every aspect of their virtual assistant.</p>\n\n<p>After selecting Rasa as the conversational AI framework for their virtual assistant, T-Mobile launched an MVP version in July 2020. The virtual assistant is able to customize experiences for users that qualify for self-service. Customers are automatically qualified by starting a messaging conversation with an intent that matches a topic the virtual assistant can handle. From there, the virtual assistant acts as a wayfinder, pointing the customer in the right direction. Some transactions can be fully resolved by the assistant, without transferring the customer to another channel.</p>\n\n<p>Working alongside the Rasa Customer Success team, T-Mobile&#39;s full-stack team built an API integration to customize the user experience, integrated with T-Mobile&#39;s chat platform, and rapidly assessed language changes and model updates. Taking an iterative and agile approach, T-Mobile continually releases improvements to the assistant, sometimes shipping updates 2-3 times per week.</p>\n\n<h3>The Results</h3>\n\n<p>Since launch, T-Mobile&#39;s virtual assistant has reached 10% of Messaging customers, with a goal of serving 25% of customers with seamless, personalized conversational experiences by the end of 2021.</p>\n\n<p>The AI @ T-Mobile team continues to expand the capabilities and scope of their virtual assistant, looking ahead to launching new self-service options and expanding to Apple Business chat for iOS users in 2021 and beyond.</p>\n\n<p><Quote dataKey=\"lindsey-mccarthy\"/></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1612186617-t-mobile-demo.mp4",
+      "width": 406,
+      "height": 720
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1613742868-lindsey-mccarthy.jpg",
+          "width": 1350,
+          "height": 1349
+        },
+        "cite": "Lindsey McCarthy, Senior Technology Product Manager, AI @ T-Mobile",
+        "text": "<p>Our team loves working on the Rasa platform. The flexibility has produced many creative ideas, and we already have teams outside of the Care department that want to use our virtual assistant.</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "T-Mobile",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614285871-t-mobile-logo.jpg",
+        "width": 2205,
+        "height": 468
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "AI Insurance Case Study: nib",
+      "description": "After establishing Rasa as their primary Conversational AI platform, nib Group saw a 29% increase in self-service adoption amid a dramatic rise in contacts due to Covid-19."
+    },
+    "slug": "nib",
+    "heading": "Improving Member Experience with Customizable Conversational AI",
+    "subHeading": "After establishing Rasa as their primary Conversational AI platform, nib Group saw a 29% increase in self-service adoption amid a dramatic rise in contacts due to Covid-19.",
+    "content": "<h3>The Challenge</h3>\n\n<p><a href=\"https://www.nib.com.au/\">nib Group</a> (nib) provides health and medical insurance to over 1.4 million Australian and New Zealand residents, and the company is also Australia&#39;s third largest travel insurer.</p>\n\n<p>In 2017, nib became the first private insurer in Australia and New Zealand to improve member experience by leveraging AI with the introduction of nibby. nibby is a digital assistant embedded in the nib online member portal and mobile app, and available after hours via voice. nibby relieves pressure on human agents by providing a first line of support, including call routing and providing answers to common questions.</p>\n\n<p><Button to=\"https://www.nib.com.au/nibby/\">\n  Chat with nibby →\n</Button></p>\n\n<p>One of nibby&#39;s primary duties is ensuring members are routed to the appropriate team. This automated routing results in decreased handle times while eliminating the frustration of being transferred from call center to call center. nibby identifies members as international visitors, students, Australian residents, or healthcare providers during the first interaction, and nibby also sorts inquiries to sales or support.</p>\n\n<p>Since launch, nib has continued to review and redesign nibby, with the goals of improved member experience, increased efficiency, and higher productivity. With a long-term vision of an assistant that went beyond FAQs, nib worked to make nibby more contextual and sophisticated.</p>\n\n<p>The first iteration of nibby was built on an enterprise cloud-based NLU. Over time, the nib team identified opportunities to advance nibby, but doing so would require greater customization capabilities and ownership over their machine learning models. While the cloud-based NLU offered a set of capabilities out of the box, a feature request was the only path to getting more out of the platform. In addition, the team saw a chance to make the update process more predictable and reliable. Having greater visibility into updates that flowed into the NLU framework would allow the team to avoid unexpected interactions with their own code updates.</p>\n\n<h3>The Solution</h3>\n\n<p>With a team of data scientists and engineers ready to bring nibby to its full potential, nib began to benchmark alternative conversational AI frameworks. Rasa stood out for its extensibility and flexibility, as well as for features like the ability to customize channel-specific responses. Rasa&#39;s enterprise open source framework provided the freedom to build custom features on nib&#39;s timeline, rather than relying on a vendor&#39;s roadmap, and developers and data scientists had complete visibility into updates and functionality flowing into the product.</p>\n\n<p>nib also embraced the Rasa approach to stories and dialogue management, which offered two benefits. First, Rasa reduced complexity. According to Dom Sammut, Engineering Manager - Conversational Experiences at nib, &quot;Before, we had massive diagrams, like big trees,&quot; which mapped out hypothetical member journeys. After migrating to Rasa, the team shifted their approach, moving to small conversation blocks that could be interconnected. This more nimble approach allowed the team to design flexible conversation flows that responded to the member, rather than enforcing a narrow, prescribed path for users to follow.</p>\n\n<p>Second, Rasa offered a development flow that allowed developers and conversation designers to work together harmoniously. Conversation designers were able to write stories and create dialogues independently, without requiring developer resources. For functionality that did require custom Python functions, conversation designers could simply reference the action name in the dialogue, a process the team found to be much more cumbersome with the original cloud-based NLU. &quot;With Rasa, it was super straightforward,&quot; Dom said. &quot;I can give our conversation designer a list of the custom action names and they can drop them into the story.&quot;</p>\n\n<p>Ultimately, the decision to replatform came down to long-term vision and building the best possible assistant. &quot;We wanted to have a bot that could have the best conversation and most natural and helpful conversations with members, and that was Rasa at the end of the day.&quot;</p>\n\n<p>In the process of migrating to Rasa, nib seized the opportunity to refresh the underlying design of nibby, removing legacy code and rethinking the way conversations were handled from scratch. Working alongside the Rasa Customer Success Engineering team, nib completed the migration within three months. Post-migration, the Rasa team has continued to work closely with nib, partnering to identify and solve issues, and taking a hands-on approach to version upgrades and feature development.</p>\n\n<h3>The Results</h3>\n\n<p>nibby&#39;s success has allowed agents to focus on impactful conversations, grown the team and business around conversational AI, and expanded nib&#39;s AI assistant program to more channels. As more and more companies seek to create the same customer experience across multiple channels at scale, serving many channels with a single Rasa assistant has allowed nib to leverage their existing assistant to serve more members.</p>\n\n<p>In the three years nibby has been online, member interactions have increased by over 900%, with a conversation understanding rate of 95%. Over 50% of conversations are resolved by pointing the member to content or a self-service resource.</p>\n\n<p>Since laying a new technical foundation with Rasa and incorporating consistent listening and learning from members, nibby has reached new milestones in 2020:</p>\n\n<ul>\n<li>Served over 150,000 members, a 200% increase from 2019</li>\n<li>Introduced product information in four languages, for international students and workers</li>\n<li>Delivered COVID-19 information to members</li>\n</ul>\n\n<p>nib continues to improve nibby, with a target of increasing deflection rate and member satisfaction in years ahead.</p>\n\n<p><Quote dataKey=\"dom-sammut\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1608291808-nib-nibby-demo.mov",
+      "width": 924,
+      "height": 1280
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1614942505-dom-sammut.jpg",
+          "width": 756,
+          "height": 839
+        },
+        "cite": "Dom  Sammut, Engineering Manager - Conversational Experiences, nib Group",
+        "text": "<p>If you&#39;re out to build serious conversational applications—not just dabble—Rasa is the platform you do it with. If you want to have serious conversations and actually uplift and change the way your organization operates, open source allows unlimited possibilities. The upfront investment in the right platform will yield benefits in shorter time-to-market and lower overall total cost of ownership.</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "nib",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331175-niblogo.svg",
+        "width": 81,
+        "height": 42
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "PicPay Case Study: Conversational AI in financial services",
+      "description": "In the face of a pandemic, PicPay rises to the challenge of distributing aid to families across Brazil, using Rasa."
+    },
+    "slug": "picpay",
+    "heading": "Mobilizing a Nationwide Emergency Response to COVID-19",
+    "subHeading": "In the face of a pandemic, PicPay rises to the challenge of distributing aid to families across Brazil, using Rasa.",
+    "content": "<h3>The Challenge</h3>\n\n<p>PicPay serves a rapidly growing customer base of 20 million customers and counting, the largest user base of any payment app in Brazil. But with the onset of the global coronavirus pandemic, the challenges of scale took on a new urgency.</p>\n\n<p>The Brazilian government selected PicPay as the payment app through which all emergency aid funds would be paid out to families across Brazil. Through the PicPay app, users would be able to validate whether they qualified for aid with the Brazilian government and claim their benefits.</p>\n\n<p>The logistical challenges of the plan were considerable: a spike in customer service contacts, a user base with limited digital literacy, and above all, a mandate to roll out a solution in weeks, not months.</p>\n\n<p>To manage the expected volume and ensure all users were able to access their benefits regardless of tech savviness, PicPay designed a conversational interface: an AI assistant that led users through the entire process.</p>\n\n<h3>The Solution</h3>\n\n<p>With time of the essence, PicPay chose Rasa to provide the framework for conversational AI. The team’s past experience with Rasa made it a top contender during the evaluation process, and ultimately Rasa was selected over IBM Watson on the basis of both cost and accuracy. Another deciding factor was Rasa’s open source approach and the visibility it offered into constant improvements within the product, as well as the ability to support language localization in Portuguese.</p>\n\n<p>PicPay’s team of developers, content editors, and data scientists worked closely with the Rasa Customer Success Engineering team to meet an ambitious launch deadline of just two weeks. 10 business days later, on May 13, the PicPay assistant was live in production.</p>\n\n<h3>The Results</h3>\n\n<p>In just the first hour, PicPay’s assistant handled 3,000 transactions, averaging 100,000 users per day during the first week. Traffic has remained high ever since, with the assistant handling between 20k and 65k interactions per day.</p>\n\n<p>With a combination of technology and nimble development, PicPay was able to mobilize the distribution of aid across Brazil. The success of PicPay’s Rasa assistant has led the team to look toward future improvements, including integration with Zendesk and WhatsApp.</p>\n\n<p><Quote dataKey=\"isaac-ben-akiva\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1616153369-picpay-demo.mp4",
+      "width": 360,
+      "height": 720
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1615574104-isaac-ben-akiva.jpeg",
+          "width": 400,
+          "height": 400
+        },
+        "cite": "Isaac Ben-Akiva, Chief Data & AI Officer",
+        "text": "<p>With the help of the Rasa team we managed to put an assistant in production and go live within 10 business days. Rasa is portable, scalable, and it’s very easy to develop a chatbot application on Rasa.</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "PicPay",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331182-picpaylogo.svg",
+        "width": 129,
+        "height": 44
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "Case Study | Telecom company automates tech support",
+      "description": "Learn how telecom leader Orange uses a contextual AI assistant to reduce costs and optimize agent workloads"
+    },
+    "slug": "orange",
+    "heading": "Providing multi-channel, automated technical support",
+    "subHeading": "Orange uses a contextual AI assistant to help customers troubleshoot common internet connectivity issues, 24/7",
+    "content": "<h3>The Challenge</h3>\n\n<p><a href=\"https://orange.com\">Orange</a> is a leader in the telecom industry, with 273M clients across 28 countries. As the #1 telecom brand in France and the #8 brand worldwide, maintaining high customer service availability while meeting the demands of a growing customer base is vital.</p>\n\n<p>The goal for Orange was twofold: to decrease the number of technical support contacts handled via phone and eChat while improving the overall customer experience. To achieve this, Orange set out to create an interactive, self-service resource capable of first-line technical troubleshooting and answering questions about customer accounts.</p>\n\n<h3>The Solution</h3>\n\n<p>Orange France developed Djingo: a contextual AI assistant that can assist customers with internet, phone, and TV troubleshooting--quickly and in a personalized way.</p>\n\n<p>Djingo interacts with customers much like a human chat agent, through a text-based conversational interface available on Orange’s website, Skype, or Facebook Messenger. Djingo can look up account information, answer questions about billing, and help customers diagnose internet or phone connectivity issues.</p>\n\n<p>Djingo does all of this on top of a 100% open source stack, including Rasa for NLU and dialogue management. Orange chose Rasa for its flexibility, its ability to execute on premise, and its fully machine learning-based approach. With every conversation users have with Djingo, the assistant learns and improves, providing greater accuracy over time.</p>\n\n<h3>The Results</h3>\n\n<p>Since deploying Djingo, Orange has reduced the number of support contacts handled by human agents, reducing costs and optimizing agent workloads by automating responses to the most common issues.</p>\n\n<p>And most importantly, customer satisfaction is on the rise, with the ability to resolve issues when they happen, day or night.</p>\n\n<p><Quote dataKey=\"richard-popa\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1616757578-orange.mp4",
+      "width": 600,
+      "height": 574
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1615573925-richard-popa.png",
+          "width": 171,
+          "height": 182
+        },
+        "cite": "Richard Popa, Project Leader and Solutions Manager at Orange",
+        "text": "<p>We developed a real partnership with Rasa based on 3 axes: developing skills rapidly, correcting bugs quickly, and sharing a wish list with the dev team. Happy customers, happy developers, a win-win partnership!</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "Orange",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331178-orangelogo.svg",
+        "width": 379,
+        "height": 380
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "Leading the Way Towards an Autonomous Organization",
+      "description": "Lemonade uses Rasa to automate internal processes with their bot, Cooper"
+    },
+    "slug": "lemonade",
+    "heading": "Leading the Way Towards an Autonomous Organization",
+    "subHeading": "Lemonade uses Rasa to automate internal processes with their bot, Cooper",
+    "content": "<h3>The Challenge</h3>\n\n<p><a href=\"https://www.lemonade.com\">Lemonade</a>, a US-based tech company with almost $500M in funding, is revolutionizing the insurance market. With a mission to disrupt the insurance market and let humans focus on innovation, Lemonade uses an AI-powered assistant to digitize the insurance-buying experience for renters and homeowners. But behind the scenes, Lemonade mobilizes multiple AI assistants—not just for customer-facing functions, but across the whole organization.</p>\n\n<p>Lemonade had a question: How to scale the business without simply hiring more people, and how to automate routine, organizational work. Like all companies with an engineering workflow, many tasks are repetitive. Documenting internal processes and measuring and controlling workflows are critical; but at times, these tasks feel tedious and slow down the process of delivering work to production.</p>\n\n<p>Lemonade needed a conversational AI framework that provides the freedom to fully customize and integrates with existing workflows and tools—while still maintaining full control over their sensitive company data.</p>\n\n<h3>The Solution</h3>\n\n<p>Lemonade chose Rasa to create a powerful AI assistant that would drive its engineering team and automate other internal tasks. The team created Cooper, an “internal automation brain,” that handles and delivers tasks to production.</p>\n\n<p>Cooper interfaces with the Lemonade team via Slack, its internal communication system. The assistant assigns tasks, prepares testing environments, runs automated tests, and even deploys updates. It also handles tasks such as sprint planning, sending company logos and colors, and more.</p>\n\n<h3>The Results</h3>\n\n<p>Cooper’s smarts have saved tremendous amounts of time, money, and headcount for Lemonade. Ultimately, this has led to faster development, smoother deployments, and more efficient processes—factors that have helped Lemonade insure around half a million homes as of April, 2019.</p>\n\n<p>It’s also been part of delivering on the company’s <a href=\"https://www.lemonade.com/blog/rise-autonomous-organization/\">mission to become an autonomous organization</a>, a future where AI assistants will manage tasks more efficiently than humans.</p>\n\n<p><Quote dataKey=\"nathaniel-kohn\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1616757295-lemonade-slack.mp4",
+      "width": 800,
+      "height": 516
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1615573080-nathaniel-kohn.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "cite": "Nathanial Kohn, Data Science Lead at Lemonade",
+        "text": "<p>We built Cooper using Rasa, which was the only solution and fit for us at Lemonade. Using Rasa’s machine learning framework, we’re able to hire smart humans who create real impact while automating everything else.</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "Lemonade",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331169-lemonadelogo.svg",
+        "width": 92,
+        "height": 20
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "AI Banking Case Study: N26",
+      "description": "N26 uses Rasa to handle complex back-and-forth conversations–20% of N26's customer service requests are handled by their AI assistant built on Rasa."
+    },
+    "slug": "n26",
+    "heading": "Deflecting 30% of routine customer service contacts",
+    "subHeading": "N26 uses Rasa to handle complex back-and-forth conversations",
+    "content": "<h3>The Challenge</h3>\n\n<p><a href=\"https://www.n26.com\">N26</a>, the leading mobile bank in Europe with over $500M in funding, has seen tremendous growth to over two million customers in just a few years. The company operates across many different national markets in Europe, offering customer service in five languages, and plans to expand to the US.</p>\n\n<p>To keep up with this strong growth, N26 faced the challenge of scaling customer service. N26 decided to investigate using AI to improve customer experience and operational efficiency, through faster responses to customer service chats.</p>\n\n<p>N26 found existing cloud-based solutions weren’t able to fulfill its customization and data protection needs. In addition, the company wanted to automate complex, back-and-forth conversations.</p>\n\n<h3>The Solution</h3>\n\n<p>Using Rasa, N26 was able to get from idea to production in just four weeks. N26 deployed the assistant on their secure cloud environment with full data control.</p>\n\n<p>A product team consisting of data scientists, designers, developers, and product managers, worked closely with customer service to identify the major use cases. Specifically, the team was able to handle more complex conversations using Rasa’s machine learning-based dialogue AI instead of hand-crafting each rule.</p>\n\n<p>Now the AI assistant is running in five different languages in their mobile and web app, even handling complex tasks such as reports of credit cards being lost or stolen.</p>\n\n<h3>The Results</h3>\n\n<p>N26’s team was able to tweak the machine learning models to peak performance with their own data sets. Soon after going live in the mobile app, N26 quickly saw 20% of customer service requests handled by the AI assistant. N26 is working on bringing this to 30% and beyond.</p>\n\n<p><Quote dataKey=\"gino-cordt\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1614944470-n26-demo.mp4",
+      "width": 408,
+      "height": 694
+    },
+    "quote": [
+      {
+        "avatar": null,
+        "cite": "Gino Cordt, Chief Data Officer, N26",
+        "text": "<p>With Rasa, we were able to scale our customer service and grow our user base significantly, and still provide the best customer experience. We further have more time to concentrate on the most important requests.</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "N26",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331174-n26logo.svg",
+        "width": 94,
+        "height": 49
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "AI Healthcare Case Study: Circle Medical",
+      "description": "Circle Medical uses Rasa to handle user requests that go beyond simple FAQs"
+    },
+    "slug": "circle-medical",
+    "heading": "Simplifying prescription refills through a contextual AI assistant",
+    "subHeading": "Circle Medical uses Rasa to handle user requests that go beyond simple FAQs",
+    "content": "<h3>The Challenge</h3>\n\n<p>Founded in 2015, <a href=\"https://www.circlemedical.com/\">Circle Medical</a> is a primary care practice that uses technology to deliver better patient experience and outcomes at a lower cost. Its patient-facing AI assistant automates traditionally human-intensive processes such as scheduling, billing, and managing medical records.</p>\n\n<p>Circle Medical receives thousands of messages from patients every month. Many of these messages are routine, but are hard to automate with static solutions, as user requests often go beyond just simple FAQs. Given the continuous flow of patient requests, Circle Medical was searching for a scalable solution that provides a personalized experience and meets the high standards of their patients.</p>\n\n<h3>The Solution</h3>\n\n<p>Using Rasa’s advanced machine learning-based dialogue management, Circle Medical was able to automate a use case for medication prescription refills within a few weeks. The customizability of Rasa Core enabled the team to provide a personalized solution that integrates into their own system and can handle multiple turns in the course of one conversation.</p>\n\n<p>In addition, the team was able to host everything on their HIPAA-compliant hosting infrastructure, encrypting conversations in transit and storage to ensure full patient privacy.</p>\n\n<h3>The Results</h3>\n\n<p>Automating prescription refills demonstrated massive potential to increase patient satisfaction through faster response cycles, while saving costs. More than 50 percent of refill requests are fully handled by the AI assistant, requiring physicians only for review and approval. Physicians feedback was overwhelmingly positive, as automating repetitive tasks enabled them to focus on important in-depth discussions with a greater number of patients.</p>\n\n<p>Circle Medical is now working on expanding their AI assistant to include additional use cases.</p>\n\n<p><Quote dataKey=\"circle-medical-jsb\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1614949973-circlemedical.png",
+      "width": 477,
+      "height": 846
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1614950080-circle-medical-jsb.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "cite": "Jean-Sebastien Boulanger, Co-Founder & CTO at Circle Medical",
+        "text": "<p>We receive thousands of incoming patient messages per month. We wanted to build an AI assistant that automates some of the communication between patients and their care team. Rasa was the clear choice being customizable and open source. Being able to host it was crucial to protect the privacy of our patients. It only took us two weeks to ship a first version that helps patients refill their medication automatically. We’re really impressed how easy it was to customize it for our use case.</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "Circle Medical",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331146-circlemedicallogo.png",
+        "width": 330,
+        "height": 60
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "AI Healthcare Case Study: Dialogue",
+      "description": "Dialogue's AI assistant uses Rasa to automate patient evaluation and allow for more quality time with medical practitioners."
+    },
+    "slug": "dialogue",
+    "heading": "Removing human bias from medical evaluations with conversational AI",
+    "subHeading": "Dialogue uses Rasa to automate patient evaluation and allow for more quality time with medical practitioners.",
+    "content": "<h3>The Challenge</h3>\n\n<p><a href=\"https://www.dialogue.co\">Dialogue</a>’s mission is to improve humanity’s well-being by reducing barriers to quality care. As Canada’s leading virtual health care platform, Dialogue offers integrated healthcare services for employers to keep their employees happy, healthy, and performing at their highest potential. A full range of health professionals, from nurses to physicians and allied health practitioners, are available at the click of a button via mobile phone or computer to help employees optimize their work-life balance.</p>\n\n<p>Dialogue has enjoyed rapid adoption in recent years, but with success comes the challenge of delivering great care at scale.</p>\n\n<p>To address this challenge, Dialogue set out to automate the patient intake process by developing a conversational AI assistant capable of gathering information about patients’ medical conditions through a conversational evaluation before introducing them to a member of the care team.</p>\n\n<h3>The Solution</h3>\n\n<p>During the patient intake evaluation, Dialogue’s contextual assistant uses Rasa NLU to classify patients’ chief complaint and uses Rasa Core for generating conversational responses. The assistant supports three different languages—English, French, and German—depending on user preference and can support multiple users in a single conversation.</p>\n\n<p>The ability to integrate with existing systems and modify conversational AI components was a key requirement of the project. The Rasa action server integrates external services that support the patient experience, like a patient profile service. Dialogue also extended the Rasa Form Policy to integrate an external inference engine for managing the patient evaluation dialogue.</p>\n\n<p>Multimedia and innovative message types provide a richer patient experience within the Dialogue Virtual Clinic. Moving beyond simple text questions with suggested replies, patients can upload files and images through the interface, and the Dialogue Virtual Clinic even allows patients to select a specific part of the body where they experience pain from a visual representation.</p>\n\n<p>Dialogue’s tech stack includes Mattermost for messaging and relies on Docker images containing Rasa components—Core, NLU, and action server—that are deployed using Kubernetes on AWS EKS, through a CircleCI deployment pipeline. Dialogue Virtual Clinic includes a variety of client-side applications that interface with the conversational agent, including, implementations written using React, React Native, Android Native, and Electron.</p>\n\n<h3>The Results</h3>\n\n<p>Dialogue leverages technology to help the care team deliver the safest and highest quality care to patients. The Virtual Clinic assistant automates, standardizes, and removes human bias from key steps in the patient experience so the care team can focus on what matters most: patients and their safety.</p>\n\n<p>Patients can now complete an evaluation anytime, anywhere, in only a few minutes on average—compared to the time-consuming process patients are used to with the traditional medical system. This process helps the care team consult patients efficiently, so they can continue to provide quality care to a greater number of patients in a smarter, more effective way.</p>\n\n<p><Quote dataKey=\"alexis-smirnov\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1615557494-dialoguepatientintake.mp4",
+      "width": 1280,
+      "height": 720
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1615557603-alexis-smirnov.jpg",
+          "width": 834,
+          "height": 782
+        },
+        "cite": "Alexis Smirnov, Co-founder and CTO of Dialogue",
+        "text": "<p>Conversational systems greatly support medical professionals to better respond to patients’ needs. Rasa platform allowed us to focus on creating fast conversational experiences and deliver them under a human-in-the-loop regime. This way we ensure that medical decisions are always taken by medical professionals using evidence-based methods that lower the bias. And the administrative and data collection tasks are done via an intuitive chatbot.</p>\n\n<p>Rasa’s open-source model and a clean extensible architecture make it an ideal choice for product development as well as applied research projects.</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "Dialogue",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331148-dialoguelogo.png",
+        "width": 358,
+        "height": 80
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "Engie case study: Conversational AI in the energy industry",
+      "description": "Learn how energy company ENGIE uses an AI contextual assistant to help HR teams support employee development"
+    },
+    "slug": "engie",
+    "heading": "Streamlining HR processes with a conversational assistant",
+    "subHeading": "The HR team at ENGIE uses Rasa internally to help every employee reach their full potential",
+    "content": "<h3>The Challenge</h3>\n\n<p><a href=\"https://www.engie.com\">ENGIE</a> is an international electric utility company based in France. The company historically operates in energy distribution and now focuses on transition strategies toward renewable energies.</p>\n\n<p>At ENGIE, the HR team supports the progress of each employee by providing career guidance, suggesting new opportunities, and ensuring fit between talents and job roles. The HR team was tasked with bringing more stakeholders into the career development process and brought on <a href=\"https://www.metriq.io\">metriq</a> to execute a technology-driven solution.</p>\n\n<h3>The Solution</h3>\n\n<p>With the high-level goal of transforming the HR department&#39;s core processes, ENGIE worked hand in hand with metriq to build a contextual assistant capable of providing relevant information to stakeholders inside and outside the HR team.</p>\n\n<p>A key part of the process was unlocking the full value of the HR team’s existing data. Metriq designed digital workflows and automations to leverage this data and applied user-centric methodologies to allow stakeholders to consume the information in the most relevant way. They also worked with ENGIE’s IT and security teams to build a secure and reliable chatbot server on premise that satisfies GDPR.</p>\n\n<p>Rasa brought two important elements to the integration: user permissions and the ability to connect with custom channels. Rasa allowed the development team to easily handle roles and manage data access in the context of each user. And, the open source technical framework provided the flexibility to embed the assistant within the Microsoft Teams environment.</p>\n\n<h3>The Results</h3>\n\n<p>Since launch, ENGIE’s contextual assistant has dramatically sped up the career evolution process. Previously, it took 6 months to recruit a candidate—now it takes 2.</p>\n\n<p>Using conversational tools that interface with technologies already embedded in the organization, ENGIE was able to significantly enhance communication between HR and other stakeholders.</p>\n\n<p><Quote dataKey=\"vincent-gailhaguet\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1615566758-engie.png",
+      "width": 640,
+      "height": 1136
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1615566819-vincent-gailhaguet.jpeg",
+          "width": 103,
+          "height": 103
+        },
+        "cite": "Vincent Gailhaguet, Talent Director at ENGIE",
+        "text": "<p>We discovered a new way to exploit data from our HR platform. Metriq facilitated and fluidified our processes using user-centric methodologies.</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "ENGIE",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331154-engielogo.png",
+        "width": 1400,
+        "height": 472
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "Creating a new, AI-powered sales channel",
+      "description": "Helvetia’s natural language chatbot achieved a conversion rate of over 30%"
+    },
+    "slug": "helvetia",
+    "heading": "Creating a new, AI-powered sales channel",
+    "subHeading": "Helvetia’s natural language chatbot achieved a conversion rate of over 30%",
+    "content": "<h3>The Challenge</h3>\n\n<p><a href=\"https://www.helvetia.com\">Helvetia</a>, a leading Swiss insurer, faced increasingly high customer acquisition costs. Adding sales headcount risked cutting into already slim margins, with the cost of smaller policies sometimes exceeding insurance premiums.</p>\n\n<p>However, cost savings shouldn’t mean cutting corners or sacrificing customer experience. With this in mind, Helvetia sought to automate conversations and engage users proactively, without sacrificing quality. The Swiss insurance industry sets the benchmark for data privacy, another absolute requirement.</p>\n\n<h3>The Solution</h3>\n\n<p>Helvetia decided to build a powerful AI assistant that could offer insurance policies to customers via text message, with Rasa providing the underlying NLU and dialogue management. The team was able to design an experience that considers the user’s context and allows the customer to engage using natural language.</p>\n\n<p>Rasa X’s graphical user interface allowed non-technical team members to improve the assistant and train it with real user data.</p>\n\n<p>Additionally, Helvetia’s lead developer on the project was able to tweak the machine learning models specifically for their use case, a customization that resulted in improved accuracy. The assistant was deployed safely on-prem, fulfilling data privacy requirements.</p>\n\n<h3>The Results</h3>\n\n<p>The careful implementation and ‘go-live’ interactions with real customers produced incredible results, achieving a conversion rate of over 30% via text message.</p>\n\n<p>Using Rasa X, the team was able to leverage a wider range of Helvetia employees, including those in non-technical roles, to establish excellent customer experience and iterate faster on feedback. The company now plans to expand the AI assistant to more use cases.</p>\n\n<p><Quote dataKey=\"florian-naegele\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1615572317-helvetiasales.png",
+      "width": 477,
+      "height": 846
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1615568456-florian-naegele.jpg",
+          "width": 165,
+          "height": 165
+        },
+        "cite": "Florian Nägele, Project Manager at Helvetia",
+        "text": "<p>Rasa Enterprise allowed us to significantly reduce the engineering costs of our conversational AI projects. Being in control of our data and where Rasa is deployed is very important for us.</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "Helvetia",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331168-helvetialogo.svg",
+        "width": 1146,
+        "height": 318
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "Tia case study: HIPAA-compliant healthcare chatbot",
+      "description": "Find out how healthcare start-up Tia built HIPAA compliant conversational NLU using open source Rasa libraries, providing secure, fast support to clients."
+    },
+    "slug": "tia",
+    "heading": "Incorporating HIPAA-compliant natural language understanding for better women’s health",
+    "subHeading": "In just a few days, Tia was able to build, train and deploy their own on-prem, HIPAA-compliant natural language understanding",
+    "content": "<h3>The Challenge</h3>\n\n<p><a href=\"https://www.asktia.com/\">Tia</a> is a San Francisco-based women’s health startup. Their natural language app allows users to ask health questions and has been downloaded thousands of times.</p>\n\n<p>In the healthcare space, HIPAA compliance is crucial. Meeting these requirements could have required Tia to build their own natural language understanding AI. Developing from scratch takes months and requires specific AI and machine learning expertise.</p>\n\n<h3>The Solution</h3>\n\n<p>Tia based their app’s natural language understanding on Rasa. Tia’s product team consists of engineers, data scientists, product managers, and designers, some of whom don’t have Python coding experience. Rasa X&#39;s intuitive user interface enables product managers to label training data, providing faster iteration cycles and ease-of-use.</p>\n\n<h3>The Results</h3>\n\n<p>Tia’s system was established in just a few days and without a research team. Using Rasa, the company could focus primarily on designing a compelling user experience. Now, Tia is able to continuously add new training data and learn from real user interactions, which continually improves accuracy.</p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1616111464-tiahealthcarebot.png",
+      "width": 462,
+      "height": 819
+    },
+    "quote": [],
+    "customer": {
+      "name": "Tia",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331193-tialogo.svg",
+        "width": 29,
+        "height": 19
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "AI Banking Case Study: Raiffeisen",
+      "description": "Raiffeisen built an AI assistant with Rasa to automatically handle millennials’ most common questions."
+    },
+    "slug": "raffeisen",
+    "heading": "Attracting millennial customers with an automated personal finance assistant",
+    "subHeading": "Raiffeisen built an AI assistant to automatically handle millennials’ most common questions",
+    "content": "<h3>The Challenge</h3>\n\n<p><a href=\"https://www.raiffeisen.ch/\">Raiffeisen</a>, a leading Swiss retail bank, wanted to appeal to younger customers. With the success of newcomer banks like N26 and personal finance bots like Cleo, traditional banks face fierce competition and have to improve their customer experience.</p>\n\n<p>Raiffeisen has a record of excellent customer service and cares deeply about data privacy. In banking, most customer interactions are more complex than simple ‘question and answer’. They require multi-turn conversations.</p>\n\n<h3>The Solution</h3>\n\n<p>Using Rasa, Raiffeisen developed an AI assistant to handle longer conversations and train non-technical team members. The product team used fast iteration cycles to learn from real user data and to improve AI accuracy.</p>\n\n<p>Raiffeisen built a successful Proof of Concept within two months, deployed on-prem using Facebook Messenger. The company is now developing a strategy to bring those AI capabilities to their main products on web and mobile.</p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1615576545-raiffeisenaccountbalance.png",
+      "width": 340,
+      "height": 603
+    },
+    "quote": [],
+    "customer": {
+      "name": "Raiffeisen",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331185-raiffeisenlogo.svg",
+        "width": 100,
+        "height": 15
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "AI Insurance Case Study: Ergo",
+      "description": "ERGO uses Rasa to supply human agents with automated suggestions to answer complex questions, using deep learning-based NLP"
+    },
+    "slug": "ergo",
+    "heading": "Helping human customer service agents handle customer requests at scale",
+    "subHeading": "ERGO uses Rasa to supply human agents with automated suggestions to answer complex questions, using deep learning-based NLP",
+    "content": "<h3>The Challenge</h3>\n\n<p><a href=\"https://www.ergo.com/\">ERGO</a>, a leading European insurance company, wanted to expand their customer service operations to provide 24/7 coverage—all while reducing costs.</p>\n\n<p>Basic chatbots and IVR systems have been rejected by users for being frustrating and unhelpful. Current mass-market solutions are limited to basic, FAQ-based bots that are unable to handle complex requests and have no connection to back-end systems. Given ERGO’s award-winning chat agents and concerns about data security, none of these solutions worked for them.</p>\n\n<h3>The Solution</h3>\n\n<p>ERGO deployed Rasa Open Source and Rasa X, laying the framework to automate over 30% of customer requests before continuing to full automation. The ERGO team identified which skills to prioritize through an extensive analysis of thousands of real customer service conversations. A 12-week training phase with agents further improved the accuracy of the system. The AI immediately suggests suitable answers, dramatically reducing response time and boosting productivity and resource availability.</p>\n\n<h3>The Results</h3>\n\n<p>The deployment convinced top management to invest in making the AI assistant fully autonomous for selected use cases. In addition, the company wants to deeply integrate the assistant into their live chat system.</p>\n\n<p><Quote dataKey=\"gregor-wiest\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1615567631-customerserviceautomation.png",
+      "width": 340,
+      "height": 603
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1615567785-gregor-wiest.jpg",
+          "width": 165,
+          "height": 165
+        },
+        "cite": "Gregor Wiest, Head of Innovation ERGO Group AG",
+        "text": "<p>With Rasa, we at ERGO are completely rethinking how we build customer support experiences. It&#39;s about developing faster and cheaper, and at scale. Rasa helps us to realize these goals.</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "Ergo",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614332992-ergo.svg",
+        "width": 78,
+        "height": 23
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "Automating the insurance claims process from end to end",
+      "description": "Using Rasa Enterprise, Helvetia saves money with an AI assistant that handles bicycle theft claims filed through Facebook Messenger"
+    },
+    "slug": "helvetia-claims",
+    "heading": "Automating the insurance claims process from end to end",
+    "subHeading": "Using Rasa Enterprise, Helvetia saves money with an AI assistant that handles bicycle theft claims filed through Facebook Messenger",
+    "content": "<h3>The Challenge</h3>\n\n<p><a href=\"https://www.helvetia.com\">Helvetia</a>, a leading Swiss insurance company, has a record of superior customer experience. Extending that record to claims management involves a lot of manual work, resulting in high costs and long waiting times for customers.</p>\n\n<p>Underlying business processes make claims management complex. Multi-turn conversations which are fully integrated into backend systems or work with RPA are necessary. To maintain data privacy, on-premise hosting was required.</p>\n\n<h3>The Solution</h3>\n\n<p>Helvetia was able to solve those challenges with Rasa. Helvetia introduced a conversational agent on Facebook Messenger that automates the claims management process for bike thefts, including authentication and payments through Robotic Process Automation (RPA).</p>\n\n<p>Important development milestones:</p>\n\n<ol>\n<li> Data analysis from claims department</li>\n<li> Design of conversational flow including user authentication and anti-fraud systems</li>\n<li> Integration into CRM and payment systems using RPA</li>\n<li> User testing and training data generation with real customers</li>\n</ol>\n\n<h3>The Results</h3>\n\n<p>The automation brought Helvetia closer to a successful digital customer journey. The bot handles the majority of bicycle theft claims, leading to a more efficient and cost-effective process. After this successful implementation, Helvetia wants to integrate this approach throughout the company’s entire operations.</p>\n\n<p><Quote dataKey=\"florian-naegele\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1615568305-helvetiainsurance.png",
+      "width": 320,
+      "height": 570
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1615568456-florian-naegele.jpg",
+          "width": 165,
+          "height": 165
+        },
+        "cite": "Florian Nägele, Project Manager at Helvetia",
+        "text": "<p>Rasa Enterprise allowed us to significantly reduce the engineering costs of our conversational AI projects. Being in control of our data and where Rasa is deployed is very important for us.</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "Helvetia",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331168-helvetialogo.svg",
+        "width": 1146,
+        "height": 318
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "AI Case Study: Meekan",
+      "description": "Meekan (now part of Doodle) switched from Microsoft LUIS to their own in-house NLU with Rasa so they could be in full control of their AI."
+    },
+    "slug": "meekan",
+    "heading": "Building advanced, in-house NLU without an extensive research team",
+    "subHeading": "Meekan switched from Microsoft LUIS to their own in-house NLU with Rasa",
+    "content": "<h3>The Challenge</h3>\n\n<p>Meekan, now part of <a href=\"https://doodle.com/\">Doodle</a>, uses natural language understanding to interpret users’ requests when scheduling meetings in Slack. Initially, the company relied on LUIS, a cloud API by Microsoft, for extracting intents and entities. However, this approach created two major challenges for the growing company:</p>\n\n<ul>\n<li>No potential for customization, to improve performance in Meekan’s specific domain, scheduling</li>\n<li>No ‘ownership’ of their AI, depriving them of a strategic advantage over their competitors. Furthermore, the data remains with Microsoft, improving their models.</li>\n</ul>\n\n<p>Meekan wanted to take their NLU in-house, but didn’t have the resources to build LUIS from scratch.</p>\n\n<h3>The Solution</h3>\n\n<p>After evaluating different solutions, Meekan adopted Rasa’s toolkit. Rasa gave Meekan the ability to customize and take full control of their NLU without a big research team.</p>\n\n<p>Using the <a href=\"/docs/rasa/migrate-from/microsoft-luis-to-rasa/\">fast migration guide</a>, Meekan went from idea to production in four weeks, in part by importing existing training data directly from LUIS. After a few tweaks and internal tests, the NLU model was ready, and the switch to Rasa was completed without interruption for end users.</p>\n\n<h3>The Results</h3>\n\n<p>Meekan overcame the challenges associated with LUIS by successfully implementing Rasa:</p>\n\n<ul>\n<li>Achieving better NLU results by tailoring underlying algorithms to their domain</li>\n<li>Establishing a competitive advantage by owning their training data and underlying technology</li>\n</ul>\n\n<p>Meekan also decreased the latency period, meaning faster response times at scale.</p>\n\n<p><Quote dataKey=\"eyal-yavor\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1616752092-meekan-slack.mp4",
+      "width": 700,
+      "height": 524
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1615573347-eyal.jpg",
+          "width": 59,
+          "height": 59
+        },
+        "cite": "Eyal Yavor, CTO Meekan",
+        "text": "<p>We recently switched from LUIS (Microsoft) to Rasa to be in full control of our AI: we can tweak the performance, we know where the data is going, and we can scale up without worrying about surprise bills</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "Meekan",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331172-meekanlogo.svg",
+        "width": 477,
+        "height": 129
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "AI Case Study: Eddy Travels",
+      "description": "Rasa enabled Eddy Travels to customize their machine learning models and tune their NLU accuracy to 96%, providing an improved chatting experience."
+    },
+    "slug": "eddy-travels",
+    "heading": "Simplifying the trip planning experience for millennials, with an AI-powered travel assistant",
+    "subHeading": "Eddy Travels tuned their NLU accuracy to 96%, providing an improved chatting experience",
+    "content": "<h3>The Challenge</h3>\n\n<p><a href=\"https://www.eddytravels.com\">Eddy Travels</a> is a travel tech startup based in Toronto, Canada. Founded in August 2018, the startup developed an AI-powered assistant that provides personalized travel suggestions. Travelers can send a text or voice message to Eddy Travels and discover the best flights, hotels, car rentals, and other travel-related services in one place. The digital assistant is already available on the most popular messaging apps like Facebook Messenger, Telegram, Viber, Slack, and Line.</p>\n\n<p>Initially, the team used Dialogflow for natural language understanding. However, the dialogue could not deviate from pre-defined flows and Eddy Travels had no control over the source code. It was hard for the team to maintain the platform, and difficult to collaborate. There was no easy way to set up the required test suite to evaluate the performance of the digital assistant.</p>\n\n<h3>The Solution</h3>\n\n<p>As an open source platform, Rasa is much more customizable - it allows Eddy Travels to change any piece of code to suit their specific needs. For example, by customizing the machine learning models, they improved the assistant’s ability to handle more complex language structures and achieved better results, reaching high accuracy as a result. They also have full control of their data and do not have to share it with any third parties.</p>\n\n<p>Eddy Travels’ focus remains on improving the assistant’s language understanding, adding more high-quality travel products and services, and expanding the level of personalization. The Canadian-based startup is planning to launch Eddy Travels on WeChat and WhatsApp messaging applications and develop their own mobile app later this year.</p>\n\n<p><Quote dataKey=\"edmundas-balcikonis\" /></p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1615560424-eddytravels.png",
+      "width": 1242,
+      "height": 2208
+    },
+    "quote": [
+      {
+        "avatar": {
+          "url": "https://www.datocms-assets.com/30881/1615560515-edmundasbalcikonis.jpeg",
+          "width": 425,
+          "height": 425
+        },
+        "cite": "Edmundas Balčikonis, Co-Founder and CEO of Eddy Travels",
+        "text": "<p>Switching to Rasa was a great decision. It accelerated the development of our AI travel assistant and significantly improved the assistant’s ability to handle more complex phrases. We are now able to process thousands of conversations each month with 96% accuracy, which resulted in better user engagement and more searches per conversation.</p>\n"
+      }
+    ],
+    "customer": {
+      "name": "Eddy Travels",
+      "logo": {
+        "url": "https://www.datocms-assets.com/30881/1614331151-eddytravelslogo.png",
+        "width": 204,
+        "height": 212
+      }
+    }
+  },
+  {
+    "metaTags": {
+      "title": "How a travel site reduced costs with an AI-powered bot",
+      "description": "A conversational AI-powered travel agent uses Rasa to provide automation and training to help with a large number of customer requests"
+    },
+    "slug": "travel-assistant",
+    "heading": "Simplify the customer experience and reduce costs with an AI-powered travel agent",
+    "subHeading": "A large European travel website was able to automate over 25% of their customer service conversations with Rasa",
+    "content": "<h3>The Challenge</h3>\n\n<p>A large European travel website has hundreds of customer booking requests daily. The majority are urgent, with customers about to start their journey or already in a foreign country. The increased cost pressure in the industry is forcing companies to invest into automation.</p>\n\n<p>Conversations about bookings tend to get complex very quickly. There are a lot of specific rules and not many standards, meaning simple FAQ-based bots typically add little value for customers. Deep integrations into backend systems are required, as well as a way to train specific machine learning models for the travel industry vocabulary.</p>\n\n<h3>The Solution</h3>\n\n<p>Using Rasa, the company built a conversational travel agent which could handle complex interactions with customers. The agent is end-to-end automated with machine learning-based dialogue management and deep backend integrations. The company was also able to improve the accuracy of their language model by integrating real conversations.</p>\n\n<p>The company went from idea to deployment in less than three months. Focusing on a few use cases with high volume of customer service on Facebook Messenger, after a short training phase the AI assistant was able to handle more than 25% of requests. Now, the company plans to expand into further use cases and conversational platforms like WhatsApp and live web chat.</p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1616111291-travelbotaddluggage.png",
+      "width": 750,
+      "height": 1334
+    },
+    "quote": [],
+    "customer": null
+  },
+  {
+    "metaTags": {
+      "title": "",
+      "description": "Discover how Rasa helped a large European telecom company offer text-based mobile plan upgrades with frictionless conversational AI"
+    },
+    "slug": "telecom-upgrades",
+    "heading": "Increase sales by introducing an AI assistant to upgrade mobile phone plans",
+    "subHeading": "A large European telco built an AI assistant, allowing customers to easily upgrade their mobile plans",
+    "content": "<h2>The Challenge</h2>\n\n<p>A large European telecom company surveyed their customers and found two-thirds didn&#39;t know how to upgrade their mobile plan. Sales increased after integrating live chat into their web portal and mobile apps, however staffing costs skyrocketed.</p>\n\n<p>As customer satisfaction tends to be low in the telecom industry, introducing a simple FAQ bot that would disappoint users was not an option. The company wanted to make sure the underlying technology can be adapted into multiple languages and works with proprietary backend systems.</p>\n\n<h2>The Solution</h2>\n\n<p>Rasa is a powerful, machine learning-based solution that allowed the company to automate complex conversations. Tailored to their enterprise IT landscape and deployed on-prem, the in-house product team completed a Proof of Concept within two months.</p>\n\n<p>With proof of concept successful, the management was convinced to further invest. With fully automated conversations, the AI assistant was able to achieve a human-like sales conversion while keeping costs low. The company will now be rolling out the AI assistant in more languages and adding use cases.</p>\n",
+    "headerMedia": {
+      "url": "https://www.datocms-assets.com/30881/1616111091-telecombotupgradeplan.png",
+      "width": 750,
+      "height": 1334
+    },
+    "quote": [],
+    "customer": null
+  }
+]

@@ -1,0 +1,16 @@
+.Content {
+  width: 70%;
+  padding-right: 1.5rem;
+}
+
+.Content h3 {
+  color: #343434;
+  margin-bottom: 1rem;
+  line-height: 28px;
+}
+
+.Content p {
+  color: #6d708b;
+  margin-bottom: 1.5rem;
+  line-height: 28px;
+}

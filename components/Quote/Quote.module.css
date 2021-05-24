@@ -1,0 +1,42 @@
+.Quote {
+  width: 60%;
+  border-radius: 16px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d708b;
+  border: 1px solid #e3e3e3;
+  padding: 26px;
+  margin-top: 1.5rem;
+}
+
+.Pointer {
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+  transform: rotate(45deg);
+  position: relative;
+  margin-top: -20px;
+  margin-left: 10%;
+}
+
+.Cite {
+  display: flex;
+  align-items: center;
+}
+
+.Cite img {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  padding: 0.25rem;
+}
+
+.Cite p {
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6d708b;
+}

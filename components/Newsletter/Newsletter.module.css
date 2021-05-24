@@ -1,0 +1,53 @@
+.NewsletterContainer {
+  display: flex;
+  width: 1300px;
+}
+
+.NewsletterText {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.NewsletterText p:nth-child(1) {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #343434;
+}
+
+.NewsletterText p:nth-child(2) {
+  font-size: 14px;
+  line-height: 30px;
+  color: #7a7c92;
+}
+
+.NewsletterForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.NewsletterForm input {
+  border: 1px solid #e3e3e3;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 16px;
+  width: 400px;
+  outline: none;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7a7c92;
+}
+
+.NewsletterForm button {
+  background: #5a17ee;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  color: #fff;
+  padding: 18px;
+}

@@ -1,0 +1,243 @@
+[
+  {
+    "text": "Product",
+    "items": [
+      {
+        "text": "Why Rasa?",
+        "href": "/product/why-rasa"
+      },
+      {
+        "text": "Features",
+        "href": "/product/features"
+      },
+      {
+        "text": "Rasa Open Source",
+        "href": "/open-source"
+      },
+      {
+        "text": "Rasa X",
+        "href": "/rasa-x"
+      },
+      {
+        "text": "Rasa Enterprise",
+        "href": "/enterprise"
+      }
+    ]
+  },
+  {
+    "text": "Pricing",
+    "items": [
+      {
+        "text": "Enterprise Overview",
+        "href": "/enterprise"
+      },
+      {
+        "text": "Enterprise Pricing",
+        "href": "/product/pricing"
+      }
+    ]
+  },
+  {
+    "text": "Solutions",
+    "items": [
+      {
+        "text": "Use Cases",
+        "items": [
+          {
+            "text": "Customer Experience",
+            "href": "/solutions/customer-service-automation"
+          },
+          {
+            "text": "Enterprise Operations",
+            "href": "/solutions/enterprise-operations"
+          },
+          {
+            "text": "Lead Gen & Sales",
+            "href": "/solutions/lead-generation-sales"
+          },
+          {
+            "text": "Voice",
+            "href": "/solutions/voice"
+          }
+        ]
+      },
+      {
+        "text": "Industries",
+        "items": [
+          {
+            "text": "Financial Services",
+            "href": "/solutions/financial-services"
+          },
+          {
+            "text": "Healthcare",
+            "href": "/solutions/healthcare"
+          },
+          {
+            "text": "Telecom",
+            "href": "/customers/telecom"
+          },
+          {
+            "text": "Travel & Culture",
+            "href": "/customers/travel-and-transport"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Open Source",
+    "items": [
+      {
+        "text": "Rasa Open Source",
+        "href": "/open-source"
+      },
+      {
+        "text": "Install Open Source",
+        "href": "/docs/rasa/installation"
+      },
+      {
+        "text": "Join the Community",
+        "href": "/community/join"
+      },
+      {
+        "text": "How to Contribute",
+        "href": "/community/contribute"
+      },
+      {
+        "text": "Community Showcase",
+        "href": "/showcase/"
+      },
+      {
+        "text": "Rasa Blog",
+        "href": "https://blog.rasa.com"
+      }
+    ]
+  },
+  {
+    "text": "Docs",
+    "items": [
+      {
+        "text": "Developer Portal",
+        "href": "/docs/"
+      },
+      {
+        "text": "Rasa Open Source",
+        "href": "/docs/rasa"
+      },
+      {
+        "text": "Rasa Action Server",
+        "href": "/docs/action-server"
+      },
+      {
+        "text": "Rasa X",
+        "href": "/docs/rasa-x"
+      }
+    ]
+  },
+  {
+    "text": "Resources",
+    "items": [
+      {
+        "text": "Education",
+        "items": [
+          {
+            "text": "Case Studies",
+            "href": "/customers/"
+          },
+          {
+            "text": "Developer Portal",
+            "href": "/docs/"
+          },
+          {
+            "text": "Rasa Blog",
+            "href": "https://blog.rasa.com"
+          },
+          {
+            "text": "Conversation-driven Development",
+            "href": "/conversation-driven-development/"
+          },
+          {
+            "text": "Rasa on YouTube",
+            "href": "https://www.youtube.com/channel/UCJ0V6493mLvqdiVwOKWBODQ"
+          },
+          {
+            "text": "Rasa on Udemy",
+            "href": "https://info.rasa.com/rasa-courses"
+          }
+        ]
+      },
+      {
+        "text": "Community",
+        "items": [
+          {
+            "text": "Join the Community",
+            "href": "/community/join/"
+          },
+          {
+            "text": "How to Contribute",
+            "href": "/community/contribute/"
+          },
+          {
+            "text": "Community Showcase",
+            "href": "/showcase/"
+          },
+          {
+            "text": "Forum",
+            "href": "https://forum.rasa.com/"
+          }
+        ]
+      },
+      {
+        "text": "Company",
+        "items": [
+          {
+            "text": "About Us",
+            "href": "/about/"
+          },
+          {
+            "text": "Careers",
+            "xtra": "We're hiring!",
+            "href": "/careers/"
+          },
+          {
+            "text": "Our Mission",
+            "href": "/mission/"
+          },
+          {
+            "text": "How we make money",
+            "href": "/how-we-make-money/"
+          },
+          {
+            "text": "Research",
+            "href": "/research/"
+          },
+          {
+            "text": "Rasa Company Blog",
+            "href": "https://learn.rasa.com/blog/"
+          },
+          {
+            "text": "Contact Us",
+            "href": "/contact/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Get Started",
+    "items": [
+      {
+        "text": "Install Rasa",
+        "href": "/docs/"
+      },
+      {
+        "text": "Get an Enterprise Demo",
+        "href": "https://info.rasa.com/rasa-technical-demo"
+      },
+      {
+        "text": "Talk to Sales",
+        "href": "/contact-sales/"
+      }
+    ]
+  }
+]

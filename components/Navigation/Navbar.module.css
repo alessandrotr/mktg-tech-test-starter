@@ -1,0 +1,45 @@
+.Navbar {
+  width: 100%;
+  background-color: #5a17ee;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.Logo {
+  width: 20%;
+  display: flex;
+}
+
+.Logo img {
+  width: 75px;
+  display: flex;
+}
+
+.Navigation {
+  width: 60%;
+  text-align: center;
+}
+
+.Navigation ul li {
+  display: inline;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.GetStarted {
+  width: 20%;
+  text-align: right;
+}
+
+.GetStarted li {
+  display: inline;
+  padding: 0.5rem 1rem;
+  color: #5a17ee;
+  background-color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+}
