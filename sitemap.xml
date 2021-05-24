@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="http://.../sitemap/">
+<urlset xmlns="http://https://mktg-tech-test-starter.vercel.app/sitemap/">
 
    <url>
 
-      <loc>http://localhost:3000/</loc>
+      <loc>https://mktg-tech-test-starter.vercel.app</loc>
 
       <lastmod>2021-24-05</lastmod>
 
